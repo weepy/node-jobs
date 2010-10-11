@@ -1,9 +1,7 @@
-var redis = require("redis");
+var redis = require("redis"),
+    jobs = require("jobs");
 
 client = redis.createClient()
-client.select(15)
-var jobs = (require("./lib/jobs"));
-
 var runner = new jobs(client, "node-jobs-test",{});
 
 runner.setRunners({

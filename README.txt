@@ -20,7 +20,6 @@ Test
 node test.js
 
 ./redis-cli
-select 15
 rpush node-jobs-test_queued "{\"type\":\"log\",\"msg\":\"hello\"}"
 
 --> this should output a log message on the server "hello"

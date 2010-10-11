@@ -1,12 +1,12 @@
 {
   "name": "jobs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "simple redis backed jobs runner",
   "author": "weepy",
-  "bin": "./bin/bounce",
   "repository": "http://github.com/weepy/node-jobs",
   "dependencies": {
     "redis": ">= 0.3.4",
   },  
+  "directories": { "lib": "./lib" },
   "engines" : { "node": ">= 0.2.0" }
 }
