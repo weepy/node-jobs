@@ -1,2 +1,0 @@
-var redis = require("redis");
-
