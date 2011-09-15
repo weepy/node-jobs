@@ -3,9 +3,12 @@
   "version": "0.0.3",
   "description": "simple redis backed jobs runner",
   "author": "weepy",
-  "repository": "http://github.com/weepy/node-jobs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/weepy/node-jobs"
+  },
   "dependencies": {
-    "redis": ">= 0.3.4",
+    "redis": ">= 0.3.4"
   },  
   "directories": { "lib": "./lib" },
   "engines" : { "node": ">= 0.2.0" }
