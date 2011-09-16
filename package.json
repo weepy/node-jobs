@@ -3,6 +3,9 @@
   "version": "0.0.4",
   "description": "simple redis backed jobs runner",
   "author": "weepy",
+  "contributor": [
+    "Jurian Sluiman"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/weepy/node-jobs"
@@ -11,5 +14,6 @@
     "redis": ">= 0.3.4"
   },  
   "directories": { "lib": "./lib" },
+  "main": "./index.js",
   "engines" : { "node": ">= 0.2.0" }
 }
